@@ -1,6 +1,6 @@
 :root {
   --color-primary: #2584ff;
-  --color-secondary: #00d9df;
+  --color-secondary: #00d9ff;
   --color-accent: #ff3400;
   --color-headings: #1b0760;
   --color-body: #918ca4;
@@ -337,6 +337,18 @@ a {
 
 .plan .list__item {
   margin-bottom: 2rem;
+}
+
+.plan--popular .card__header {
+  position: relative;
+}
+.plan--popular .card__header::before {
+  content: url(../Icons/popular.svg);
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 5%;
 }
 
 @media screen and (min-width: 1024px) {
