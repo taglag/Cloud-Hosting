@@ -543,3 +543,22 @@ a {
     margin: 0 2rem;
   }
 }
+
+/* Collapsible */
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible__heading {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.collapsible__content {
+  display: none;
+}
+
+.collapsible--expanded .collapsible__content {
+  display: block;
+}
